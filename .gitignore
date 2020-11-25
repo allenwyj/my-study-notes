@@ -1,0 +1,4 @@
+# ignore DS_Store from everywhere
+**/.DS_Store
+
+/.vscode
