@@ -1,0 +1,6 @@
+﻿Scope,Description,Example
+Signleton,Create a single shared instance of the bean. Default scope. - Pointing to the same ref location.,
+Prototype,Creates a new bean instance for each container request.,
+Request,Scoped to an HTTP web request. Only used for web apps,Giving web requests.
+Session,Scoped to an HTTP web session. Only used for web apps,"HTTP web session, like session tracking, shopping carts"
+Global-session,Scoped to a global HTTP web session. Only used for web apps.,scoped application-wide

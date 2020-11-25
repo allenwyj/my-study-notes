@@ -1,0 +1,10 @@
+﻿Class,Description
+SessionFactory,Reads the hibernate config file
+,Creates Session objects
+,"Heavy-weight object "
+,Only create once in your app - reuse the same SessionFactory
+,it creates sessions
+Session,wraps a JDBC connection
+,Main object used to save/retrieve objects
+,Short-lived object
+,Retrieved from SessionFactory

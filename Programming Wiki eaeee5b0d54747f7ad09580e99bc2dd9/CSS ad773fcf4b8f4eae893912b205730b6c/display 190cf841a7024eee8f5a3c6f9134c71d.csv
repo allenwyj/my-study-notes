@@ -1,0 +1,6 @@
+﻿Value,Description
+inline,Displays an element as an inline element (like <span>). Any height and width properties will have no effect
+block,"Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width"
+contents,"Makes the container disappear, making the child elements children of the element the next level up in the DOM"
+flex,Displays an element as a block-level flex container
+grid,Displays an element as a block-level grid container
